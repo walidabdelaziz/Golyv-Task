@@ -28,6 +28,7 @@
 		CB6B1AEA2AAF2F97001D791F /* ReposTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB6B1AE82AAF2F97001D791F /* ReposTVCell.xib */; };
 		CB6B1AEC2AAF3148001D791F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B1AEB2AAF3148001D791F /* Extensions.swift */; };
 		CB6B1AEE2AAF38AA001D791F /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B1AED2AAF38AA001D791F /* Protocols.swift */; };
+		CB6B1AF22AAF3BDA001D791F /* RepoDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B1AF12AAF3BDA001D791F /* RepoDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		CB6B1AE82AAF2F97001D791F /* ReposTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReposTVCell.xib; sourceTree = "<group>"; };
 		CB6B1AEB2AAF3148001D791F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		CB6B1AED2AAF38AA001D791F /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		CB6B1AF12AAF3BDA001D791F /* RepoDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailsVC.swift; sourceTree = "<group>"; };
 		D642B1CED382B01ACAAECFCF /* Pods-Golyv Task-Golyv TaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golyv Task-Golyv TaskUITests.release.xcconfig"; path = "Target Support Files/Pods-Golyv Task-Golyv TaskUITests/Pods-Golyv Task-Golyv TaskUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DD035C745706383C3502C161 /* Pods-Golyv Task-Golyv TaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golyv Task-Golyv TaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-Golyv Task-Golyv TaskUITests/Pods-Golyv Task-Golyv TaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -198,6 +200,7 @@
 			children = (
 				CB6B1ADB2AAF2B23001D791F /* SplashVC.swift */,
 				CB6B1ADF2AAF2C88001D791F /* ReposVC.swift */,
+				CB6B1AF12AAF3BDA001D791F /* RepoDetailsVC.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -514,6 +517,7 @@
 				CB6B1AE02AAF2C88001D791F /* ReposVC.swift in Sources */,
 				CB6B1AD52AAF2A7B001D791F /* Repos.swift in Sources */,
 				CB6B1ADC2AAF2B23001D791F /* SplashVC.swift in Sources */,
+				CB6B1AF22AAF3BDA001D791F /* RepoDetailsVC.swift in Sources */,
 				CB6B1AEE2AAF38AA001D791F /* Protocols.swift in Sources */,
 				CB6B1AD22AAF29DF001D791F /* NetworkManager.swift in Sources */,
 				CB6B1AD02AAF29B9001D791F /* Consts.swift in Sources */,

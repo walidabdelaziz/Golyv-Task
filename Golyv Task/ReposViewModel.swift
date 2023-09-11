@@ -18,6 +18,7 @@ class ReposViewModel {
     let isLoading = BehaviorRelay<Bool>(value: false)
     let error = PublishSubject<Error>()
     let loadNextPageTrigger = PublishSubject<Void>()
+    let selectedRepo = BehaviorRelay<Repos>(value: Repos())
 
     func getRepos(){
         guard !isLoading.value else { return }

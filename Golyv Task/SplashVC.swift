@@ -19,7 +19,7 @@ class SplashVC: UIViewController {
         setupUI()
     }
     func setupUI(){
-        self.timer = Timer.scheduledTimer(timeInterval: 0.8, target: self, selector: #selector(updateUI), userInfo: nil, repeats: true)
+        self.timer = Timer.scheduledTimer(timeInterval: 0.3, target: self, selector: #selector(updateUI), userInfo: nil, repeats: true)
     }
     @objc func updateUI(){
         if count > 0 {

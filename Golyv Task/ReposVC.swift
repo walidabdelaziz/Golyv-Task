@@ -56,6 +56,7 @@ class ReposVC: UIViewController {
         Observable
             .zip(self.reposTV.rx.itemSelected, self.reposTV.rx.modelSelected(Repos.self))
             .bind { [unowned self] indexPath, model in
+                self.naviagateToDetailsScreen(model: model)
             }
             .disposed(by: disposeBag)
         
@@ -69,6 +70,12 @@ class ReposVC: UIViewController {
                     }
                 }).disposed(by: disposeBag)
 
+    }
+    func naviagateToDetailsScreen(model: ControlEvent<Repos>.Element){
+        let storyboard = UIStoryboard(name: "Repos", bundle: nil)
+        let RepoDetailsVC = storyboard.instantiateViewController(withIdentifier: "RepoDetailsVC") as! RepoDetailsVC
+        RepoDetailsVC.repoViewModel.selectedRepo.accept(model)
+        navigationController?.pushViewController(RepoDetailsVC, animated: true)
     }
     
 }
