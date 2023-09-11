@@ -23,6 +23,10 @@ class ReposVC: UIViewController {
         bindViewModel()
         reposViewModel.getRepos()
     }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: false)
+    }
     func setupUI(){
         title = "Repositories"
         navigationItem.setHidesBackButton(true, animated: true)
@@ -37,6 +41,7 @@ class ReposVC: UIViewController {
             .bind(to: reposTV.rx.items(cellIdentifier: "ReposTVCell", cellType: ReposTVCell.self)) { row, repo, cell in
                 cell.selectionStyle = .none
                 cell.repo = repo
+                cell.setDateAccordingToIndex(row: row)
             }
             .disposed(by: disposeBag)
         

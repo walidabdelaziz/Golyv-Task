@@ -73,7 +73,7 @@
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
                 <outlet property="bgV" destination="ud4-qq-jpw" id="qQB-oy-zNO"/>
-                <outlet property="dateLbl" destination="LJu-Nx-FOY" id="eqL-Gy-YaO"/>
+                <outlet property="dateLbl" destination="wml-ja-9Vz" id="Jo7-h0-Z7R"/>
                 <outlet property="ownerImg" destination="vIe-5L-jlL" id="6WF-Rf-apF"/>
                 <outlet property="ownerLbl" destination="LJu-Nx-FOY" id="TbO-3c-HCu"/>
                 <outlet property="repoTitleLbl" destination="f3V-38-YkT" id="OSa-Pf-tjW"/>

@@ -9,3 +9,6 @@ import Foundation
 protocol AsyncImageLoadable {
     func loadImage(from urlString: String)
 }
+protocol FormatDateProtocol {
+    func formatDate(_ dateString: String) -> String
+}

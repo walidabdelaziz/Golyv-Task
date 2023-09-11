@@ -19,3 +19,22 @@ extension UIView{
         layer.rasterizationScale = UIScreen.main.scale
     }
 }
+extension Date {
+    func formattedString() -> String {
+        let calendar = Calendar.current
+        let currentDate = Date()
+        
+        if let monthsAgo = calendar.dateComponents([.month], from: self, to: currentDate).month, monthsAgo < 6 {
+            let dateFormatter = DateFormatter()
+            dateFormatter.dateFormat = "EEEE, MMM d, yyyy"
+            return dateFormatter.string(from: self)
+        } else {
+            let components = calendar.dateComponents([.year, .month], from: self, to: currentDate)
+            if let yearsAgo = components.year, yearsAgo > 0 {
+                return "\(yearsAgo) year\(yearsAgo > 1 ? "s" : "") ago"
+            } else {
+                return "\(components.month ?? 0) month\(components.month ?? 0 > 1 ? "s" : "") ago"
+            }
+        }
+    }
+}

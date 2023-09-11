@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ReposTVCell: UITableViewCell,AsyncImageLoadable {
+class ReposTVCell: UITableViewCell,AsyncImageLoadable,FormatDateProtocol {
 
     @IBOutlet weak var dateLbl: UILabel!
     @IBOutlet weak var ownerLbl: UILabel!
@@ -43,5 +43,24 @@ class ReposTVCell: UITableViewCell,AsyncImageLoadable {
                 print("Error loading image: \(error)")
             }
         }
+    }
+    func formatDate(_ dateString: String) -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd"
+        if let date = dateFormatter.date(from: dateString) {
+            return date.formattedString()
+        }
+        return ""
+    }
+    func setDateAccordingToIndex(row: Int){
+        var formattedDate = String()
+        if row == 0{
+            formattedDate = formatDate("2023-07-22")
+        }else if row == 1{
+            formattedDate = formatDate("2023-02-22")
+        }else{
+            formattedDate = formatDate("2021-03-22")
+        }
+        dateLbl.text = formattedDate
     }
 }
