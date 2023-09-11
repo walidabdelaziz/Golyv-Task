@@ -21,6 +21,13 @@
 		CB6B1AD22AAF29DF001D791F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B1AD12AAF29DF001D791F /* NetworkManager.swift */; };
 		CB6B1AD52AAF2A7B001D791F /* Repos.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B1AD42AAF2A7B001D791F /* Repos.swift */; };
 		CB6B1ADC2AAF2B23001D791F /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B1ADB2AAF2B23001D791F /* SplashVC.swift */; };
+		CB6B1ADE2AAF2C5B001D791F /* Repos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6B1ADD2AAF2C5B001D791F /* Repos.storyboard */; };
+		CB6B1AE02AAF2C88001D791F /* ReposVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B1ADF2AAF2C88001D791F /* ReposVC.swift */; };
+		CB6B1AE22AAF2D03001D791F /* ReposViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B1AE12AAF2D03001D791F /* ReposViewModel.swift */; };
+		CB6B1AE92AAF2F97001D791F /* ReposTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B1AE72AAF2F97001D791F /* ReposTVCell.swift */; };
+		CB6B1AEA2AAF2F97001D791F /* ReposTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB6B1AE82AAF2F97001D791F /* ReposTVCell.xib */; };
+		CB6B1AEC2AAF3148001D791F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B1AEB2AAF3148001D791F /* Extensions.swift */; };
+		CB6B1AEE2AAF38AA001D791F /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B1AED2AAF38AA001D791F /* Protocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +70,13 @@
 		CB6B1AD12AAF29DF001D791F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		CB6B1AD42AAF2A7B001D791F /* Repos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repos.swift; sourceTree = "<group>"; };
 		CB6B1ADB2AAF2B23001D791F /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		CB6B1ADD2AAF2C5B001D791F /* Repos.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Repos.storyboard; sourceTree = "<group>"; };
+		CB6B1ADF2AAF2C88001D791F /* ReposVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposVC.swift; sourceTree = "<group>"; };
+		CB6B1AE12AAF2D03001D791F /* ReposViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposViewModel.swift; sourceTree = "<group>"; };
+		CB6B1AE72AAF2F97001D791F /* ReposTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposTVCell.swift; sourceTree = "<group>"; };
+		CB6B1AE82AAF2F97001D791F /* ReposTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReposTVCell.xib; sourceTree = "<group>"; };
+		CB6B1AEB2AAF3148001D791F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CB6B1AED2AAF38AA001D791F /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		D642B1CED382B01ACAAECFCF /* Pods-Golyv Task-Golyv TaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golyv Task-Golyv TaskUITests.release.xcconfig"; path = "Target Support Files/Pods-Golyv Task-Golyv TaskUITests/Pods-Golyv Task-Golyv TaskUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DD035C745706383C3502C161 /* Pods-Golyv Task-Golyv TaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golyv Task-Golyv TaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-Golyv Task-Golyv TaskUITests/Pods-Golyv Task-Golyv TaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -165,6 +179,8 @@
 			children = (
 				CB6B1ACF2AAF29B9001D791F /* Consts.swift */,
 				CB6B1AD12AAF29DF001D791F /* NetworkManager.swift */,
+				CB6B1AEB2AAF3148001D791F /* Extensions.swift */,
+				CB6B1AED2AAF38AA001D791F /* Protocols.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -181,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				CB6B1ADB2AAF2B23001D791F /* SplashVC.swift */,
+				CB6B1ADF2AAF2C88001D791F /* ReposVC.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -198,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				CB6B1AA42AAF2689001D791F /* Main.storyboard */,
+				CB6B1ADD2AAF2C5B001D791F /* Repos.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -205,6 +223,8 @@
 		CB6B1AD92AAF2AD9001D791F /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				CB6B1AE72AAF2F97001D791F /* ReposTVCell.swift */,
+				CB6B1AE82AAF2F97001D791F /* ReposTVCell.xib */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -212,6 +232,7 @@
 		CB6B1ADA2AAF2AF1001D791F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				CB6B1AE12AAF2D03001D791F /* ReposViewModel.swift */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -339,7 +360,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6B1ADE2AAF2C5B001D791F /* Repos.storyboard in Resources */,
 				CB6B1AAB2AAF268B001D791F /* LaunchScreen.storyboard in Resources */,
+				CB6B1AEA2AAF2F97001D791F /* ReposTVCell.xib in Resources */,
 				CB6B1AA82AAF268B001D791F /* Assets.xcassets in Resources */,
 				CB6B1AA62AAF2689001D791F /* Main.storyboard in Resources */,
 			);
@@ -486,11 +509,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6B1AE22AAF2D03001D791F /* ReposViewModel.swift in Sources */,
+				CB6B1AEC2AAF3148001D791F /* Extensions.swift in Sources */,
+				CB6B1AE02AAF2C88001D791F /* ReposVC.swift in Sources */,
 				CB6B1AD52AAF2A7B001D791F /* Repos.swift in Sources */,
 				CB6B1ADC2AAF2B23001D791F /* SplashVC.swift in Sources */,
+				CB6B1AEE2AAF38AA001D791F /* Protocols.swift in Sources */,
 				CB6B1AD22AAF29DF001D791F /* NetworkManager.swift in Sources */,
 				CB6B1AD02AAF29B9001D791F /* Consts.swift in Sources */,
 				CB6B1A9F2AAF2689001D791F /* AppDelegate.swift in Sources */,
+				CB6B1AE92AAF2F97001D791F /* ReposTVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

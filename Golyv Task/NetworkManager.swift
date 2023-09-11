@@ -31,13 +31,21 @@ class NetworkManager {
             throw NetworkError.requestFailed
         }
     }
-
+    func fetchData<T: Decodable>(from urlString: String, completion: @escaping (Result<T, Error>) -> Void) {
+        Task {
+            do {
+                let result: T = try await NetworkManager.shared.request(from: urlString)
+                completion(.success(result))
+            } catch {
+                completion(.failure(error))
+            }
+        }
+    }
 
     func loadImage(from urlString: String) async throws -> UIImage {
         guard let url = URL(string: urlString) else {
             throw NetworkError.invalidURL
         }
-        
         do {
             let (data, _) = try await URLSession.shared.data(from: url)
             if let image = UIImage(data: data) {

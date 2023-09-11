@@ -32,8 +32,9 @@ class SplashVC: UIViewController {
             }
         }
     }
-    
     @objc func showVC(){
-
+        let storyboard = UIStoryboard(name: "Repos", bundle: nil)
+        let ReposVC = storyboard.instantiateViewController(withIdentifier: "ReposVC")
+        navigationController?.pushViewController(ReposVC, animated: true)
     }
 }
