@@ -132,9 +132,10 @@
 			children = (
 				CB6B1A9E2AAF2689001D791F /* AppDelegate.swift */,
 				CB6B1ACE2AAF29AD001D791F /* Helpers */,
-				CB6B1AA22AAF2689001D791F /* ViewController.swift */,
 				CB6B1AD32AAF2A6C001D791F /* Models */,
-				CB6B1AA42AAF2689001D791F /* Main.storyboard */,
+				CB6B1AD62AAF2AAE001D791F /* Controllers */,
+				CB6B1AD72AAF2AC7001D791F /* Views */,
+				CB6B1ADA2AAF2AF1001D791F /* ViewModels */,
 				CB6B1AA72AAF268B001D791F /* Assets.xcassets */,
 				CB6B1AA92AAF268B001D791F /* LaunchScreen.storyboard */,
 				CB6B1AAC2AAF268B001D791F /* Info.plist */,
@@ -174,6 +175,45 @@
 				CB6B1AD42AAF2A7B001D791F /* Repos.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		CB6B1AD62AAF2AAE001D791F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB6B1AA22AAF2689001D791F /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CB6B1AD72AAF2AC7001D791F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB6B1AD92AAF2AD9001D791F /* Cells */,
+				CB6B1AD82AAF2ACE001D791F /* Storyboards */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CB6B1AD82AAF2ACE001D791F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CB6B1AA42AAF2689001D791F /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		CB6B1AD92AAF2AD9001D791F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		CB6B1ADA2AAF2AF1001D791F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
 			sourceTree = "<group>";
 		};
 		DE68BDFC74CEF706B3EFB30E /* Pods */ = {
