@@ -14,7 +14,6 @@
 		CB6B1AA62AAF2689001D791F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6B1AA42AAF2689001D791F /* Main.storyboard */; };
 		CB6B1AA82AAF268B001D791F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6B1AA72AAF268B001D791F /* Assets.xcassets */; };
 		CB6B1AAB2AAF268B001D791F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6B1AA92AAF268B001D791F /* LaunchScreen.storyboard */; };
-		CB6B1AB62AAF268B001D791F /* Golyv_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B1AB52AAF268B001D791F /* Golyv_TaskTests.swift */; };
 		CB6B1AC02AAF268B001D791F /* Golyv_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B1ABF2AAF268B001D791F /* Golyv_TaskUITests.swift */; };
 		CB6B1AC22AAF268B001D791F /* Golyv_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B1AC12AAF268B001D791F /* Golyv_TaskUITestsLaunchTests.swift */; };
 		CB6B1AD02AAF29B9001D791F /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B1ACF2AAF29B9001D791F /* Consts.swift */; };
@@ -29,6 +28,8 @@
 		CB6B1AEC2AAF3148001D791F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B1AEB2AAF3148001D791F /* Extensions.swift */; };
 		CB6B1AEE2AAF38AA001D791F /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B1AED2AAF38AA001D791F /* Protocols.swift */; };
 		CB6B1AF22AAF3BDA001D791F /* RepoDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B1AF12AAF3BDA001D791F /* RepoDetailsVC.swift */; };
+		CB6B1AF42AAF48D2001D791F /* ReposViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B1AF32AAF48D2001D791F /* ReposViewModelTests.swift */; };
+		CB6B1AF62AAF490F001D791F /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B1AF52AAF490F001D791F /* NetworkManagerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +64,6 @@
 		CB6B1AAA2AAF268B001D791F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB6B1AAC2AAF268B001D791F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB6B1AB12AAF268B001D791F /* Golyv TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Golyv TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB6B1AB52AAF268B001D791F /* Golyv_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golyv_TaskTests.swift; sourceTree = "<group>"; };
 		CB6B1ABB2AAF268B001D791F /* Golyv TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Golyv TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6B1ABF2AAF268B001D791F /* Golyv_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golyv_TaskUITests.swift; sourceTree = "<group>"; };
 		CB6B1AC12AAF268B001D791F /* Golyv_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golyv_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -79,6 +79,8 @@
 		CB6B1AEB2AAF3148001D791F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		CB6B1AED2AAF38AA001D791F /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		CB6B1AF12AAF3BDA001D791F /* RepoDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailsVC.swift; sourceTree = "<group>"; };
+		CB6B1AF32AAF48D2001D791F /* ReposViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposViewModelTests.swift; sourceTree = "<group>"; };
+		CB6B1AF52AAF490F001D791F /* NetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
 		D642B1CED382B01ACAAECFCF /* Pods-Golyv Task-Golyv TaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golyv Task-Golyv TaskUITests.release.xcconfig"; path = "Target Support Files/Pods-Golyv Task-Golyv TaskUITests/Pods-Golyv Task-Golyv TaskUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DD035C745706383C3502C161 /* Pods-Golyv Task-Golyv TaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golyv Task-Golyv TaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-Golyv Task-Golyv TaskUITests/Pods-Golyv Task-Golyv TaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -162,7 +164,8 @@
 		CB6B1AB42AAF268B001D791F /* Golyv TaskTests */ = {
 			isa = PBXGroup;
 			children = (
-				CB6B1AB52AAF268B001D791F /* Golyv_TaskTests.swift */,
+				CB6B1AF52AAF490F001D791F /* NetworkManagerTests.swift */,
+				CB6B1AF32AAF48D2001D791F /* ReposViewModelTests.swift */,
 			);
 			path = "Golyv TaskTests";
 			sourceTree = "<group>";
@@ -530,7 +533,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB6B1AB62AAF268B001D791F /* Golyv_TaskTests.swift in Sources */,
+				CB6B1AF62AAF490F001D791F /* NetworkManagerTests.swift in Sources */,
+				CB6B1AF42AAF48D2001D791F /* ReposViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
