@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CEF7039056196C8F32EB4AC /* Pods_Golyv_Task_Golyv_TaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4944FD89CDE380F9F3127B56 /* Pods_Golyv_Task_Golyv_TaskUITests.framework */; };
+		6686A4177B240F42E3AB7856 /* Pods_Golyv_TaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7161FAB98EDB052F6E2F1B7E /* Pods_Golyv_TaskTests.framework */; };
+		7779E9B9575CC7C55584B64E /* Pods_Golyv_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050BFC6B2AF8C744D30F1DDD /* Pods_Golyv_Task.framework */; };
 		CB6B1A9F2AAF2689001D791F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B1A9E2AAF2689001D791F /* AppDelegate.swift */; };
 		CB6B1AA12AAF2689001D791F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B1AA02AAF2689001D791F /* SceneDelegate.swift */; };
 		CB6B1AA32AAF2689001D791F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B1AA22AAF2689001D791F /* ViewController.swift */; };
@@ -36,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		050BFC6B2AF8C744D30F1DDD /* Pods_Golyv_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Golyv_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1FFD3EBAFB5E646FF216B5 /* Pods-Golyv TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golyv TaskTests.debug.xcconfig"; path = "Target Support Files/Pods-Golyv TaskTests/Pods-Golyv TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		320220192559364DADB5D7F2 /* Pods-Golyv Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golyv Task.release.xcconfig"; path = "Target Support Files/Pods-Golyv Task/Pods-Golyv Task.release.xcconfig"; sourceTree = "<group>"; };
+		4944FD89CDE380F9F3127B56 /* Pods_Golyv_Task_Golyv_TaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Golyv_Task_Golyv_TaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7161FAB98EDB052F6E2F1B7E /* Pods_Golyv_TaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Golyv_TaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5DC7AFB03AA4A4994EF5FA5 /* Pods-Golyv Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golyv Task.debug.xcconfig"; path = "Target Support Files/Pods-Golyv Task/Pods-Golyv Task.debug.xcconfig"; sourceTree = "<group>"; };
+		C0C9C20E3D78A349345BA50E /* Pods-Golyv TaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golyv TaskTests.release.xcconfig"; path = "Target Support Files/Pods-Golyv TaskTests/Pods-Golyv TaskTests.release.xcconfig"; sourceTree = "<group>"; };
 		CB6B1A9B2AAF2689001D791F /* Golyv Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Golyv Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6B1A9E2AAF2689001D791F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB6B1AA02AAF2689001D791F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		CB6B1ABB2AAF268B001D791F /* Golyv TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Golyv TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6B1ABF2AAF268B001D791F /* Golyv_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golyv_TaskUITests.swift; sourceTree = "<group>"; };
 		CB6B1AC12AAF268B001D791F /* Golyv_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golyv_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D642B1CED382B01ACAAECFCF /* Pods-Golyv Task-Golyv TaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golyv Task-Golyv TaskUITests.release.xcconfig"; path = "Target Support Files/Pods-Golyv Task-Golyv TaskUITests/Pods-Golyv Task-Golyv TaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DD035C745706383C3502C161 /* Pods-Golyv Task-Golyv TaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golyv Task-Golyv TaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-Golyv Task-Golyv TaskUITests/Pods-Golyv Task-Golyv TaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7779E9B9575CC7C55584B64E /* Pods_Golyv_Task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6686A4177B240F42E3AB7856 /* Pods_Golyv_TaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CEF7039056196C8F32EB4AC /* Pods_Golyv_Task_Golyv_TaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B9EFAEEEFEE3D7485045B84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				050BFC6B2AF8C744D30F1DDD /* Pods_Golyv_Task.framework */,
+				4944FD89CDE380F9F3127B56 /* Pods_Golyv_Task_Golyv_TaskUITests.framework */,
+				7161FAB98EDB052F6E2F1B7E /* Pods_Golyv_TaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CB6B1A922AAF2689001D791F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				CB6B1AB42AAF268B001D791F /* Golyv TaskTests */,
 				CB6B1ABE2AAF268B001D791F /* Golyv TaskUITests */,
 				CB6B1A9C2AAF2689001D791F /* Products */,
+				DE68BDFC74CEF706B3EFB30E /* Pods */,
+				3B9EFAEEEFEE3D7485045B84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +154,20 @@
 			path = "Golyv TaskUITests";
 			sourceTree = "<group>";
 		};
+		DE68BDFC74CEF706B3EFB30E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5DC7AFB03AA4A4994EF5FA5 /* Pods-Golyv Task.debug.xcconfig */,
+				320220192559364DADB5D7F2 /* Pods-Golyv Task.release.xcconfig */,
+				DD035C745706383C3502C161 /* Pods-Golyv Task-Golyv TaskUITests.debug.xcconfig */,
+				D642B1CED382B01ACAAECFCF /* Pods-Golyv Task-Golyv TaskUITests.release.xcconfig */,
+				2B1FFD3EBAFB5E646FF216B5 /* Pods-Golyv TaskTests.debug.xcconfig */,
+				C0C9C20E3D78A349345BA50E /* Pods-Golyv TaskTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB6B1AC52AAF268B001D791F /* Build configuration list for PBXNativeTarget "Golyv Task" */;
 			buildPhases = (
+				E3E35E6A841E8DFCC9C8DAE2 /* [CP] Check Pods Manifest.lock */,
 				CB6B1A972AAF2689001D791F /* Sources */,
 				CB6B1A982AAF2689001D791F /* Frameworks */,
 				CB6B1A992AAF2689001D791F /* Resources */,
+				A3F5ACEAC49DB619E4587AC7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB6B1AC82AAF268B001D791F /* Build configuration list for PBXNativeTarget "Golyv TaskTests" */;
 			buildPhases = (
+				54E2D66EF20B490E9B186A33 /* [CP] Check Pods Manifest.lock */,
 				CB6B1AAD2AAF268B001D791F /* Sources */,
 				CB6B1AAE2AAF268B001D791F /* Frameworks */,
 				CB6B1AAF2AAF268B001D791F /* Resources */,
+				D947FEEC17D1FA2E7760DEAD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB6B1ACB2AAF268B001D791F /* Build configuration list for PBXNativeTarget "Golyv TaskUITests" */;
 			buildPhases = (
+				B7731ACD3BEAB99DC9D1897F /* [CP] Check Pods Manifest.lock */,
 				CB6B1AB72AAF268B001D791F /* Sources */,
 				CB6B1AB82AAF268B001D791F /* Frameworks */,
 				CB6B1AB92AAF268B001D791F /* Resources */,
+				A732AA6DA1AB11D0D2A1C139 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +299,126 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54E2D66EF20B490E9B186A33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Golyv TaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F5ACEAC49DB619E4587AC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Golyv Task/Pods-Golyv Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Golyv Task/Pods-Golyv Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Golyv Task/Pods-Golyv Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A732AA6DA1AB11D0D2A1C139 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Golyv Task-Golyv TaskUITests/Pods-Golyv Task-Golyv TaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Golyv Task-Golyv TaskUITests/Pods-Golyv Task-Golyv TaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Golyv Task-Golyv TaskUITests/Pods-Golyv Task-Golyv TaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7731ACD3BEAB99DC9D1897F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Golyv Task-Golyv TaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D947FEEC17D1FA2E7760DEAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Golyv TaskTests/Pods-Golyv TaskTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Golyv TaskTests/Pods-Golyv TaskTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Golyv TaskTests/Pods-Golyv TaskTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3E35E6A841E8DFCC9C8DAE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Golyv Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CB6B1A972AAF2689001D791F /* Sources */ = {
@@ -432,6 +599,7 @@
 		};
 		CB6B1AC62AAF268B001D791F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5DC7AFB03AA4A4994EF5FA5 /* Pods-Golyv Task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +628,7 @@
 		};
 		CB6B1AC72AAF268B001D791F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 320220192559364DADB5D7F2 /* Pods-Golyv Task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +657,7 @@
 		};
 		CB6B1AC92AAF268B001D791F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B1FFD3EBAFB5E646FF216B5 /* Pods-Golyv TaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +678,7 @@
 		};
 		CB6B1ACA2AAF268B001D791F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0C9C20E3D78A349345BA50E /* Pods-Golyv TaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +699,7 @@
 		};
 		CB6B1ACC2AAF268B001D791F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD035C745706383C3502C161 /* Pods-Golyv Task-Golyv TaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +718,7 @@
 		};
 		CB6B1ACD2AAF268B001D791F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D642B1CED382B01ACAAECFCF /* Pods-Golyv Task-Golyv TaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
