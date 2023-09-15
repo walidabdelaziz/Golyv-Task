@@ -12,9 +12,9 @@ The app is developed using MVVM architecture, RxSwift and async/await and URLSes
 
 ## Installation
 
-Clone the repository.
-Open Golyv Task.xcworkspace.
-Build and run the project on your simulator or device.
+- Clone the repository.
+- Open Golyv Task.xcworkspace.
+- Build and run the project on your simulator or device.
 
 ## Features
 
